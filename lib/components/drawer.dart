@@ -1,3 +1,4 @@
+import 'package:SomaiyaChat/pages/ai_mitra.dart';
 import 'package:flutter/material.dart';
 import 'package:SomaiyaChat/pages/lms_page.dart';
 import 'package:SomaiyaChat/services/auth/auth_service.dart';
@@ -69,6 +70,25 @@ class MyDrawer extends StatelessWidget {
                   context, 
                   MaterialPageRoute(
                     builder: (context) => const LmsPage(),
+                    )
+                  );
+              },
+            ),
+          ),
+
+
+          Padding(
+            padding: const EdgeInsets.only(left: 25.0),
+            child: ListTile(
+              title: const Text("A I MITRA"),
+              leading: const Icon(Icons.architecture_outlined),
+              onTap: (){
+                Navigator.pop(context);
+                //navigate to settings page
+                Navigator.push(
+                  context, 
+                  MaterialPageRoute(
+                    builder: (context) => const AiMitra(),
                     )
                   );
               },

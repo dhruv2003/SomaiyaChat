@@ -12,9 +12,9 @@ class SettingsPage extends StatelessWidget {
     return Scaffold(
       backgroundColor:Theme.of(context).colorScheme.background,
       appBar: AppBar(
-        title: Text("Settings"),
+        title: Text("SETTINGS"),
         backgroundColor: Colors.transparent,
-        foregroundColor: Colors.grey,
+        foregroundColor: Colors.red,
         elevation: 0,
         ),
         body: Container(

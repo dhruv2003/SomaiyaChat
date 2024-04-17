@@ -139,3 +139,4 @@ app.*.symbols
 
 # Firebase
 **/firebase_options.dart
+**/consts/
