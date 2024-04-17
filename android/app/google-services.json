@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "735394968078",
+    "project_id": "riyalniggachat",
+    "storage_bucket": "riyalniggachat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:735394968078:android:5b8263b38e1599a921425f",
+        "android_client_info": {
+          "package_name": "com.example.riyal_nigga_chat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbg0CUe9H1GKjKOTaMMvcCDuheBRcASBo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
