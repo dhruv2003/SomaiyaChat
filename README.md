@@ -4,4 +4,6 @@ A Chat App Made For Somaiya Students to help them with their daily tasks and to 
 
 ## Getting Started
 
+Click Here to Download the apk file :)
 
+https://appho.st/d/MLaWNsXs
