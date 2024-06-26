@@ -98,7 +98,7 @@ class RegisterPage extends StatelessWidget {
           //login button
           MyButton(
             text: "R E G I S T E R",
-            onTap: ()=> register(context),
+            onTap: ()=> register(context), //navigator
           ),
         
 

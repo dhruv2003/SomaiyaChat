@@ -12,7 +12,7 @@ import 'package:SomaiyaChat/themes/theme_provider.dart';
 void main() async{
   Gemini.init(apiKey: GEMINI_API_KEY); //initialize api key
   // final Gemini gemini = Gemini.instance;
-  WidgetsFlutterBinding.ensureInitialized();
+  WidgetsFlutterBinding.ensureInitialized(); //makes sure that firebase is initialized before the app starts
   await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
   runApp(
     ChangeNotifierProvider(
